@@ -1,0 +1,58 @@
+#navBar{
+	background-color: transparent;
+	border-color: transparent !important;
+	color: white;
+}
+#officeDiv{
+	background-image: url("../assets/office_purp.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+.jumbotron{
+	background-color: transparent;
+	color: white;
+	font-size: 12px;
+	padding: 10%;
+}
+.remove-margin-padding{
+	margin: 0;
+	padding: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: transparent !important;
+}
+#officeHeader{
+	font-size: 48px;
+}
+#officeText{
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+#officeButton{
+	background-color: #5c1bb7;
+	border: none;
+	border-radius: 3px;
+}
+
+#buttChevron{
+	padding-left: 8px;
+}
+
+#logo{
+	color: white;
+	margin-left: 25px;
+}
+.navbar-right{
+	margin-right: 25px;
+}
+.officeRow{
+	padding: 5%;
+}
+
+
+
