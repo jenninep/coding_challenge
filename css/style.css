@@ -148,6 +148,7 @@
 .socialMedia{
 	color: #5c1bb7;
 	margin-right: 8px;
+	font-size: 18px;
 }
 
 .logosDiv{
@@ -201,6 +202,23 @@ input, textarea{
 
 .contactFormDiv{
 	padding: 5%;
+	margin-left: 5%;
+}
+.contactInfoHead{
+	color: white;
+}
+.contactInfo{
+	text-align: left;
+	padding: 5% 5% 5% 0;
+}
+
+.contactInfoText{
+	color: #737373;
+}
+.contactSocialMedia{
+	color: grey;
+	font-size: 19px;
+	padding: 2px;
 }
 
 
@@ -224,6 +242,9 @@ input, textarea{
 	#servicesText {
     	padding: 1% 23% 1% 23%;
    }
+   .contactFormDiv{
+	margin-left: 0%;
+	}	
 
 }
 
@@ -257,6 +278,12 @@ input, textarea{
 	.logos{
 		padding: 2%;
 	}
+	.contactInfo{
+		padding: 0% 0% 0% 5%;
+	}
+	#contactButt {
+		margin: 0;
+		float: none;
 }
 
 
