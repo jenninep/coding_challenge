@@ -75,8 +75,8 @@
 	color: white;
 }
 .layersTextDiv{
-	margin: 0% 10% 0 -10%;
-	padding: 2%;
+	margin: 4% 10% 0 -10%;
+	padding: 2%
 }
 
 #layersButt{
@@ -85,6 +85,8 @@
 	border: 1px solid white;
 	color: white;
 	padding: 7px 18px 7px 18px;
+	margin-top: 2%;
+	margin-bottom: 10%;
 }
 .servicesDiv{
 	background-color: #1f1f1f;
@@ -163,9 +165,23 @@
 
 
 @media screen and (max-width: 768px){
-  body {
-   
-  
+
+  	.layersTextDiv {
+  		margin: 0;
+  	
+  	}
+  	.layerDiv {
+		padding: 4% 0% 4% 0%;
+
+	}
+
+	#layersText{
+		padding: 1%;
+	}
+	#servicesText {
+    padding: 1% 23% 1% 23%;
+   }
+ 
 }
 
 @media screen and (max-width: 414px){
