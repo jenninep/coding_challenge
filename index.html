@@ -13,7 +13,29 @@
 
 </head>
 <body>
-
+	<!-- Modal -->
+	<div class="modal fade" id="appInfo" tabindex="-1" role="dialog" aria-labelledby="appInfoLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	        <h4 id="modalTitle" class="modal-title" id="myModalLabel">Lorem Ipsum Is Simply!</h4>
+	      </div>
+	      <div class="modal-body">
+	        <div id="modalImage">
+	          <img class= "modalIcons" src="assets/modalImage.png" alt="logo">
+	        </div>
+	        <p class="info">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button id="modalButton" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
 	<!-- NavBar -->
 	<div class="container-fluid remove-margin-padding">
 		<div id="officeDiv">
@@ -51,7 +73,7 @@
 							    </a>
 							  </div>
 							  <div class="media-body">
-							    <h1 id="helloHeader" class="media-heading">Hello!</h1>
+							    <h2 id="helloHeader" class="media-heading">Hello!</h2>
 							   	<p id="helloText">This was alot of fun! I enjoyed the challenge and look foward to more work.</p>
 							  </div>
 						  </div>
@@ -76,7 +98,8 @@
 
 					Nullam vitae eros sodales, dictum dolor vitae, rhoncus dolor. Fusce id pharetra magna. Fusce bibendum consectetur massa at fermentum. Praesent lobortis dui quis tellus maximus.
 					</p>
-					<button id="layersButt">Learn More</button>
+					<!-- Button trigger modal -->
+					<button href="#" data-toggle="modal" data-target="#appInfo" id="layersButt">Learn More</button>
 				</div>
 			</div>
 		</div>

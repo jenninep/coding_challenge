@@ -257,9 +257,38 @@ footer{
 #helloText{
 	color: #727371;
 	line-height: 25px;
+	font-size: initial;
+	font-weight: normal;
 }
 #funGuy{
 	padding: 3%;
+}
+
+#modalButton{
+	background-color: #5c1bb7;
+	color: white;
+}
+.modal-header {
+    border-bottom: 1px solid #5c1bb7;
+    background-color: #5c1bb7;
+    color: white;
+}
+.close{
+	color: white;
+	opacity: .4;
+}
+
+.modal-footer{
+	background-color: #e5e5e5;
+}
+.modal-body{
+	text-align: center;
+}
+.modalTitle{
+	text-align: center;
+}
+#modalImage{
+	padding: 10%;
 }
 
 
@@ -335,6 +364,7 @@ footer{
 
 	#helloText{
 		font-size: 13px;
+		font-weight: bold;
 	}
 	#funGuy{
 		width: 70px;
