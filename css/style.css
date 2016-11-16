@@ -365,6 +365,7 @@ footer{
 	#helloText{
 		font-size: 13px;
 		font-weight: bold;
+		line-height: inherit;
 	}
 	#funGuy{
 		width: 70px;
