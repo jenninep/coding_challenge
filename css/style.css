@@ -41,6 +41,7 @@
 	background-color: #5c1bb7;
 	border: none;
 	border-radius: 3px;
+	border: 1px solid #7c25f5;
 }
 
 #buttChevron{
@@ -50,6 +51,8 @@
 #logo{
 	color: white;
 	margin-left: 25px;
+	font-family: 'Michroma', sans-serif;
+	font-weight: bold;
 }
 .navbar-right{
 	margin-right: 25px;
@@ -186,6 +189,7 @@ input, textarea{
 	margin: 1%;
 	padding: 1.5%;
 	color: grey;
+	outline: none;
 }
 
 #contactButt{
@@ -222,7 +226,7 @@ input, textarea{
 }
 .siteMap{
 	background-color: #171616;
-	padding: 5% 0% 5% 11%;
+	padding: 5% 0% 0% 11%;
 }
 
 .siteMapHead{
@@ -235,8 +239,28 @@ input, textarea{
 #teamSolutions{
 	margin-bottom: 9%;
 }
+footer{
+	background-color: #5c1bb7;
+	color: #949494;
+	padding:1%; 
+	letter-spacing: .5px;
+}
+.helloDiv{
+	background-color: white;
+	border: 10px double #5c1bb7;
+	padding: 5%;
+}
 
-
+#helloHeader{
+	color: #5c1bb7;
+}
+#helloText{
+	color: #727371;
+	line-height: 25px;
+}
+#funGuy{
+	padding: 3%;
+}
 
 
 
@@ -303,6 +327,17 @@ input, textarea{
 
 	.contactFormRow{
 		padding-bottom: 8%;
+	}
+	.siteMap{
+	background-color: #171616;
+	padding: 5% 0% 5% 11%;
+	}
+
+	#helloText{
+		font-size: 13px;
+	}
+	#funGuy{
+		width: 70px;
 	}
 }
 
