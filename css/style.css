@@ -289,6 +289,11 @@ footer{
 }
 #modalImage{
 	padding: 10%;
+	
+}
+.modalIcons{
+	max-width: 100%;
+    height: auto;
 }
 
 
