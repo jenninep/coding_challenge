@@ -179,7 +179,7 @@
 		padding: 1%;
 	}
 	#servicesText {
-    padding: 1% 23% 1% 23%;
+    	padding: 1% 23% 1% 23%;
    }
  
 }
@@ -200,6 +200,20 @@
 
 	.teamImg {
 		padding-bottom:3%;
+	}
+	#servicesText {
+    	padding: 3% 9% 6% 9%;
+   }
+   .logo {
+    	max-width: 18%;
+	}
+	#microsoft{
+		 max-width: 26%;
+	}
+
+	.logos{
+		padding: 2%;
+	}
 }
 
 
