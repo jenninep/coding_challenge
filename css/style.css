@@ -220,6 +220,21 @@ input, textarea{
 	font-size: 19px;
 	padding: 2px;
 }
+.siteMap{
+	background-color: #171616;
+	padding: 5% 0% 5% 11%;
+}
+
+.siteMapHead{
+	color: white;
+}
+.siteMapText{
+	color: #737373;
+}
+
+#teamSolutions{
+	margin-bottom: 9%;
+}
 
 
 
@@ -284,6 +299,11 @@ input, textarea{
 	#contactButt {
 		margin: 0;
 		float: none;
+	}
+
+	.contactFormRow{
+		padding-bottom: 8%;
+	}
 }
 
 
