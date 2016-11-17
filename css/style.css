@@ -365,6 +365,7 @@ footer{
 	.siteMap{
 	background-color: #171616;
 	padding: 5% 0% 5% 11%;
+	line-height: normal;
 	}
 
 	#helloText{
@@ -374,6 +375,9 @@ footer{
 	}
 	#funGuy{
 		width: 70px;
+	}
+	.contactHeader{
+		padding: 6% 10% 0% 10%;
 	}
 }
 
